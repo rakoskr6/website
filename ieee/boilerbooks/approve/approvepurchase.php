@@ -1,0 +1,88 @@
+<?php 
+	session_start();
+	if (!isset($_SESSION['user']))
+	{
+		header("Location: ../index.php");
+		die();
+	}
+?>
+<?php 
+	$title = 'Kyle Rakos';
+	include '../../../header.php';
+?>
+
+<div class="container">
+	<h1 class = "text-center"><a href="../loggedin.php">Boiler Books</a></h1>
+  <h4 class = "text-center">The ultimate expense and income tracking system for student organizations</h4>
+  <ul class="nav nav-tabs">
+    <li><a href="../request/newpurchase.php">Request Purchase</a></li>
+    <li><a href="../completepurchase.php">Complete Purchase</a></li>
+    <li><a href="approvepurchase.php">Approve Purchase</a></li>
+    <li><a href="../viewmypurchases.php">View My Purchases</a></li>
+	<li><a href="../committeeexpenses.php">View Committee Expenses</a></li>
+	<li><a href="../donation.php">Receive Donation</a></li>
+  </ul>
+</div>
+
+<div class = "container">
+<h2>Coming soon!</h2>
+</div>
+
+
+<?php
+$servername = "localhost";
+$username = "testuser";
+$password = "password123";
+$dbname = "ieee-money";
+$items = '';
+
+ 
+
+try {
+	$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+	// set the PDO error mode to exception
+	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$sql = "SELECT purchaseID, item FROM Purchases WHERE Purchases.status = 'Requested'";
+	//$stmt->execute();
+	
+	
+	foreach ($conn->query($sql) as $row) {
+		$items .= '<option value="';
+		$items .= $row['purchaseID'];
+		$items .= '-';
+		$items .= $row['item'];
+		$items .= '">';
+		$items .= $row['purchaseID'];
+		$items .= '-';
+		$items .= $row['item'];
+		$items .= '</option>';
+
+	}
+		//echo $items;
+		
+	
+	}
+catch(PDOException $e)
+	{
+	echo $sql . "<br>" . $e->getMessage();
+	}
+
+$conn = null; 
+?>
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Committee">Item to Approve</label>
+  <div class="col-md-4">
+    <select id="currentitem" name="currentitem" class="form-control">
+      <?php echo $items; ?>
+    </select>
+  </div>
+</div>
+
+
+
+		
+<?php 
+	include '../../../smallfooter.php';
+?>
