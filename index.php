@@ -1,9 +1,6 @@
-<!DOCTYPE html>
 <?php
 	$title = 'Kyle Rakos';
 	include 'header.php';
-	//$headerinfo = "Location: http://purdueieee.org";
-	//header($headerinfo);
 ?>
 <body>
 
@@ -50,7 +47,7 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Purdue University:<br>Electrical and Computer Engineering</h2>
-                    <p class="lead">I am a proud Boilermaker at <a target="_blank" href="http://purdue.edu/">Purdue University</a> in West Lafayette, IN.</p>
+                    <p class="lead">I am a Boilermaker alumnus from <a target="_blank" href="http://purdue.edu/">Purdue University</a></p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="/img/PurdueP.png" alt="">
@@ -72,8 +69,8 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">IEEE</h2>
-                    <p class="lead">I am a proud member of the <a target="_blank" href="http://purdueieee.org/">IEEE student organization</a> at Purdue University. I am currently the ROV (Remotely Operated underwater
-					Vehicle) Team Captain. Additionally I am a member of the IEEE Rocket Team!
+                    <p class="lead">I was a former member <a target="_blank" href="http://purdueieee.org/">IEEE student organization</a> at Purdue University. I was the ROV (Remotely Operated underwater
+					Vehicle) Team Captain.
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="/img/IEEE.png" alt="" style="width:75%">

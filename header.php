@@ -25,12 +25,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link href="assets/css/landing-page.css" rel="stylesheet">
+    <link href="/assets/css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="/text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="/text/css">
 
+    <!-- jQuery -->
+    <script src="/assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/assets/js/bootstrap.min.js"></script>
 
 	<style>
     	legend { 
@@ -68,13 +73,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="/about/">About</a>
+                        <a href="/projects/">Projects</a>
                     </li>
                     <li>
                         <a href="/ieee/">IEEE</a>
                     </li>
                     <li>
                         <a href="/docs/resume.pdf">Resume</a>
+                    </li>
+                    <li>
+                        <a href="/about/">About</a>
                     </li>
                 </ul>
             </div>
