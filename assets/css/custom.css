@@ -1,0 +1,22 @@
+.project {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.project > img {
+	object-fit: cover;
+	width: auto;
+	max-width:350px;
+	height:350px;
+ 
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	position: relative;
+	box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.54);
+	
+}
