@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="col-lg-12">
 
-                    <p class="copyright text-muted small">Copyright &copy; Kyle Rakos 2017. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Kyle Rakos <?php echo date("Y"); ?>. All Rights Reserved</p>
                 </div>
             </div>
         </div>
