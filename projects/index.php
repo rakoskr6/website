@@ -71,7 +71,9 @@
 	<h2>Personal Projects</h2>
 	<h4>Coming soon (along with other page updates)</h4>
 	<hr>
-
+	
+	<h2>Publications</h2>
+	<h4><a href="https://www.computer.org/csdl/mags/co/2017/09/mco2017090106.pdf">Computer Society magazine article</a></h4>
 	<div class="row">
 	</div>
 
