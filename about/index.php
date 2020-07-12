@@ -11,7 +11,7 @@
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
 					<h2 class="section-heading">Kyle Rakos:</h2>
-					<p class="lead">I'm just a guy with a website.</p>
+					<p class="lead">I'm just a guy with a website. Maybe I'll eventually do something cool with it.</p>
 				</div>
 				<div class="col-lg-5 col-lg-offset-2 col-sm-6">
 					<img class="img-responsive" src="/img/PurdueP.png" alt="">

@@ -1,3 +1,4 @@
+
 <?php
 	$title = 'Kyle\'s Projects';
 	include '../header.php';
@@ -45,7 +46,7 @@
 		
 		<div class="row">
 			<div class="col-sm-6">
-				<h3 class="text-center">Boilerbooks</h3>
+				<h3 class="text-center"><a href="https://money.purdueieee.org">Boilerbooks</a></h3>
 				<hr>
 				<div class="image">
 					<div class="project">
@@ -56,7 +57,7 @@
 
 
 			<div class="col-sm-6">
-					<h3 class="text-center">PurdueIEEE.org</h3>
+					<h3 class="text-center"><a href="https://purdueieee.org">PurdueIEEE.org</a></h3>
 					<hr>
 					<div class="img">
 						<div class="project">

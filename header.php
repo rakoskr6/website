@@ -77,9 +77,6 @@
                         <a href="/projects/">Projects</a>
                     </li>
                     <li>
-                        <a href="/ieee/">IEEE</a>
-                    </li>
-                    <li>
                         <a href="/docs/resume.pdf">Resume</a>
                     </li>
                     <li>

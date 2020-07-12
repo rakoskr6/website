@@ -47,7 +47,7 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Purdue University:<br>Electrical and Computer Engineering</h2>
-                    <p class="lead">I am a Boilermaker alumnus from <a target="_blank" href="http://purdue.edu/">Purdue University</a></p>
+                    <p class="lead">I went to <a target="_blank" href="https://purdue.edu/">Purdue University</a>. Boiler up!</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="/img/PurdueP.png" alt="">
@@ -69,8 +69,8 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">IEEE</h2>
-                    <p class="lead">I was a former member <a target="_blank" href="http://purdueieee.org/">IEEE student organization</a> at Purdue University. I was the ROV (Remotely Operated underwater
-					Vehicle) Team Captain.
+                    <p class="lead">I was a former member of <a target="_blank" href="https://purdueieee.org/">Purdue IEEE</a>. I was the ROV (Remotely Operated underwater
+					Vehicle) team captain.
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="/img/IEEE.png" alt="" style="width:75%">
@@ -91,11 +91,11 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">What else?</h2>
-                    <p class="lead">I'm just getting this up and running. I wonder what other things should be added here?</p>
+                    <h2 class="section-heading">TI</h2>
+                    <p class="lead">I work at <a target="_blank" href="https://ti.com/">TI</a> as a Systems Engineer in Space Power!</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="/img/gears.png" alt="" style="width:68%">
+                    <img class="img-responsive" src="/img/ti.png" alt="" style="width:68%">
                 </div>
             </div>
 
